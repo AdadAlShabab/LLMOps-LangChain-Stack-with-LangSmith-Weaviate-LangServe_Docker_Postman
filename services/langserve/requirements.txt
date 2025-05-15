@@ -1,0 +1,5 @@
+fastapi
+langserve
+langchain
+openai
+uvicorn
