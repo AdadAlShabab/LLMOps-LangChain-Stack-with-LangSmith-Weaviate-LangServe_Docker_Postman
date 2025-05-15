@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "LLMOps",
+    "_postman_id": "12345",
+    "description": "Test collection for LangServe API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Invoke My Chain",
+      "request": {
+        "method": "POST",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"input\": \"What is LangChain?\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/invoke/my_chain",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["invoke", "my_chain"]
+        }
+      }
+    }
+  ]
+}
