@@ -14,10 +14,10 @@ A production-grade LLM application with **LangChain**, **LangServe**, **Weaviate
 ✅ Postman collection for API testing  
 
 ---
-## Use Cases This Project Supports
+# Use Cases This Project Supports
 This project provides a strong base that can support or evolve into many real-world use cases. Here's a categorized breakdown:
 
- 1. LLM API Gateway (What the project currently does)
+## 1. LLM API Gateway (What the project currently does)
 Accepts input from external systems via a simple API (/invoke/my_chain)
 
 Processes the input through a LangChain LLM chain
@@ -28,7 +28,7 @@ Logs the trace to LangSmith for observability
 
 👉 Used for: Creating a secure, observable LLM inference microservice.
 
- 2. Retrieval-Augmented Generation (RAG)
+## 2. Retrieval-Augmented Generation (RAG)
 By integrating Weaviate and feeding your documents (PDFs, web pages, support articles), you can:
 
 Store document embeddings
@@ -47,7 +47,7 @@ Semantic search engines
 
 Contract/question answering tools
 
- 3. Agent-based Workflows
+## 3. Agent-based Workflows
 By extending the chain logic:
 
 Add tools like search, calculator, or Python execution
@@ -64,7 +64,7 @@ Chat agents with memory and tools
 
 Autonomous agents (e.g., research assistant, SEO optimizer)
 
- 4. Monitoring & Evaluation of LLMs
+## 4. Monitoring & Evaluation of LLMs
 LangSmith tracks:
 
 Inputs and outputs
@@ -83,7 +83,7 @@ Evaluating LLM changes before deployment
 
 Observability in regulated environments (e.g., finance, health)
 
- 5. Secure LLM Backend for Frontend Apps
+## 5. Secure LLM Backend for Frontend Apps
 With the LangServe API:
 
 Your frontend (React, Flutter, etc.) calls the API securely
