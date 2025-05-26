@@ -31,11 +31,11 @@ Logs the trace to LangSmith for observability
 ## 2. Retrieval-Augmented Generation (RAG)
 By integrating Weaviate and feeding your documents (PDFs, web pages, support articles), you can:
 
-Store document embeddings
+- Store document embeddings
 
-Retrieve contextually relevant info using similarity search
+- Retrieve contextually relevant info using similarity search
 
-Combine with LLM to answer user questions using your data
+- Combine with LLM to answer user questions using your data
 
 👉 Used for:
 
@@ -50,9 +50,9 @@ Contract/question answering tools
 ## 3. Agent-based Workflows
 By extending the chain logic:
 
-Add tools like search, calculator, or Python execution
+- Add tools like search, calculator, or Python execution
 
-Add memory
+- Add memory
 
 Let the LLM call tools dynamically
 
@@ -77,28 +77,24 @@ LLM quality & accuracy (with test sets)
 
 👉 Used for:
 
-A/B testing prompts or chains
+- A/B testing prompts or chains
 
-Evaluating LLM changes before deployment
+- Evaluating LLM changes before deployment
 
-Observability in regulated environments (e.g., finance, health)
+- Observability in regulated environments (e.g., finance, health)
 
 ## 5. Secure LLM Backend for Frontend Apps
 With the LangServe API:
 
-Your frontend (React, Flutter, etc.) calls the API securely
+- Frontend (React, Flutter, etc.) calls the API securely
 
-Keeps API keys & LLM logic hidden from client
+- Keeps API keys & LLM logic hidden from client
 
-Allows scaling and deployment as a backend service
+- Allows scaling and deployment as a backend service
 
 👉 Used for:
 
-SaaS AI tools
-
-Chatbots
-
-Mobile AI apps
+SaaS AI tools, Chatbots, Mobile AI apps
 
 ## 🧠 Architecture
 
