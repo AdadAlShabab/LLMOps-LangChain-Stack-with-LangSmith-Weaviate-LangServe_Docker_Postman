@@ -18,13 +18,13 @@ A production-grade LLM application with **LangChain**, **LangServe**, **Weaviate
 This project provides a strong base that can support or evolve into many real-world use cases. Here's a categorized breakdown:
 
 ## 1. LLM API Gateway (What the project currently does)
-Accepts input from external systems via a simple API (/invoke/my_chain)
+- Accepts input from external systems via a simple API (/invoke/my_chain)
 
-Processes the input through a LangChain LLM chain
+- Processes the input through a LangChain LLM chain
 
-Returns the result (text, answer, response) via REST API
+- Returns the result (text, answer, response) via REST API
 
-Logs the trace to LangSmith for observability
+- Logs the trace to LangSmith for observability
 
 👉 Used for: Creating a secure, observable LLM inference microservice.
 
@@ -54,7 +54,7 @@ By extending the chain logic:
 
 - Add memory
 
-Let the LLM call tools dynamically
+- Let the LLM call tools dynamically
 
 👉 Used for:
 
